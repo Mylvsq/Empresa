@@ -1,0 +1,125 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fffdfd;
+  color: #444;
+}
+
+header {
+  background-color: #ffc1e3;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+header h1 {
+  color: #fff;
+  margin: 10px 0 0;
+}
+.logo {
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: linear-gradient(to top, #f8bbd0, #fce4ec);
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2.2em;
+}
+.btn {
+  display: inline-block;
+  background: #ec407a;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#productos {
+  padding: 50px 20px;
+  text-align: center;
+}
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.producto {
+  max-width: 200px;
+}
+.producto img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.producto p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.producto span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+.presentaciones {
+  margin-top: 30px;
+}
+.presentaciones ul {
+  list-style: none;
+  padding: 0;
+}
+.presentaciones li {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+#nosotros, #contacto {
+  padding: 40px 20px;
+  background: #fce4ec;
+  text-align: center;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #ec407a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+footer {
+  background: #ffc1e3;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+header h1 {
+    font-family: 'Pacifico', cursive, Arial, sans-serif;}
+body {
+    background-color: #f7e6f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
