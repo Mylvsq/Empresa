@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud</title>
+    <style>
+        body {
+            background-color: #ffe6f0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            font-style: italic;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff99cc;
+        }
+        nav a {
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ff66b2;
+        }
+        .catalogo {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .producto {
+            background-color: #fff0f5;
+            border-radius: 15px;
+            box-shadow: 2px 2px 10px #ccc;
+            width: 250px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        .producto img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cloud</h1>
+    </header>
+    <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto">Contáctanos</a>
+    </nav>
+    <section id="catalogo" class="catalogo">
+        <div class="producto">
+            <h2>Gelatina clásica</h2>
+            <img src="assets/gelatina_clasica.jpg" alt="Gelatina clásica">
+            <p>Bs 2</p>
+        </div>
+        <div class="producto">
+            <h2>Gelatina con chantilly</h2>
+            <img src="assets/gelatina_chantilly.jpg" alt="Gelatina con chantilly">
+            <p>Bs 3</p>
+        </div>
+        <div class="producto">
+            <h2>Gelatina mosaico</h2>
+            <img src="assets/gelatina_mosaico.jpg" alt="Gelatina mosaico">
+            <p>Bs 5</p>
+        </div>
+    </section>
+    <footer>
+        <p>Síguenos en nuestras redes: Instagram: Mylvs_hq | Facebook: Nair Itzel | WhatsApp: 63049924 / 76706888</p>
+    </footer>
+</body>
+</html>
